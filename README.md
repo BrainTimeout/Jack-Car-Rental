@@ -51,7 +51,7 @@ E_greedy_M = E_greedy / MAX_CAR_NUM
 
 ​	ε-贪婪策略的设置：
 
-- `E_greedy `：e_greedy的。
+- `E_greedy `：e_greedy的值。
 - `E_greedy_M = E_greedy / MAX_CAR_NUM`：这是计算 ε-greedy 策略中探索概率的方式。具体来说，当 `E_greedy = 0` 时，`E_greedy_M = 0`，意味着没有任何探索行为,即此时的策略为greedy策略。
 
 
